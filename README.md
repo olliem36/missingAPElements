@@ -8,7 +8,7 @@
 Getting Started
 ------
 
-There’s no external dependencies, so just clone and run the  project (Cmd+R). 
+There’s no external dependencies, so just clone and run the project (Cmd+R). 
 
 * Unit tests cover a range of scenarios (Cmd+U)
 * Example usage prints an answer to the console when the first View Controller `ViewController` is loaded.
@@ -17,7 +17,7 @@ There’s no external dependencies, so just clone and run the  project (Cmd+R).
 Other notes
 ------
 
-As the algorithm needs to accomodate multiple missing items it uses a recursive private method `getMissingElements` to find the missing elements after the common difference has been found.
+As the algorithm needs to accommodate multiple missing items it uses a recursive private method `getMissingElements` to find the missing elements after the common difference has been found.
 
 The Technical Test Question
 ------
