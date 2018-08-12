@@ -17,7 +17,7 @@ There’s no external dependencies, so just clone and run the  project (Cmd+R).
 Other notes
 ------
 
-As the algorithm needs to accompdate multiple missing items it uses a recursive private method `getMissingElements` to find the missing elements after the common difference has been found.
+As the algorithm needs to accomodate multiple missing items it uses a recursive private method `getMissingElements` to find the missing elements after the common difference has been found.
 
 The Technical Test Question
 ------
