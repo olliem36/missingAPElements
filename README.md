@@ -10,7 +10,8 @@ Getting Started
 
 There’s no external dependencies, so just clone and run the  project (Cmd+R). 
 
-Unit tests cover a range of scenarios (Cmd+U)
+* Unit tests cover a range of scenarios (Cmd+U)
+* Example usage prints an answer to the console when the first View Controller `ViewController` is loaded.
 
 
 Other notes
