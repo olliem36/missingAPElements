@@ -19,6 +19,16 @@ class termsTechTestTests: XCTestCase {
         super.tearDown()
     }
     
+    func testExampleFromQuestionPositiveProgression() {
+        let inputArray = [1, 3, 5, 9, 11, 13, 17];
+        let expectedAnswer = [7, 15];
+        
+        if let missingNumbers = APManager.findTheMissing(inputArray) {
+            XCTAssert(missingNumbers.elementsEqual(expectedAnswer), "Simple positive number AP failed")
+        }else{
+            XCTFail("AP not found for sequence \(inputArray.description). Expecting \(expectedAnswer.description)")
+        }
+    }
     
     func testNothignMissingPositiveProgression() {
         let inputArray = [5,7,9,11,13,15];
